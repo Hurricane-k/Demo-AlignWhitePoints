@@ -1,5 +1,6 @@
 # Code-Part1： Aligning White Points
 
+## Introduction
 A demo code for the journal paper "Cross-camera correction for color consistency, Part 1: aligning white points".
 
 The demo results differs from those in journal paper: variation of the SPDs involved.
@@ -10,7 +11,7 @@ Apart from SPD dataset, the QEs of main and telephoto camera embed in drone have
 
 `mainFunc.m` and `mainFunc_visualization.m` are the main function to get the results and comparison visualization.
 
-# Structure of the repository
+## Structure of the repository
 1. the folder `camera_spectral` includes the QE/CSS(Camera Spectral Sensitivity Curves) from ["What is the space of spectral sensitivity functions for digital color cameras?"](https://ieeexplore.ieee.org/document/6475015)[2]. All `.mat` files are sorted out by [Yuteng Zhu's Phd Disseration and related work](https://ueaeprints.uea.ac.uk/id/eprint/82695/)[3].
 2. the folder `data` included the necessary data during SPD selection and visualization.
      1. `illum_test.txt` and `illum_train.txt` are the publicly available SPDs dataset[1].
@@ -33,7 +34,7 @@ end
 ```
 6. `mainFunc_visualization.m` is visualization to show before and after white points alignment.
 
-# Reference
+## Reference
 [1] K. Barnard, L. Martin, B. Funt, and Adam et al., "A Data Set for Colour Research,", Color Res Appl., 27(3), 147-151, (2002). <br>
 [2] J. Jiang, D. Liu, J. Gu and S. Süsstrunk, "What is the space of spectral sensitivity functions for digital color cameras?," in 2013 IEEE Workshop on Applications of Computer Vision (WACV), Clearwater Beach, FL, USA, (2013), pp. 168-179.<br>
 [3] Y. Zhu, "Designing a Colour Filter for Making Cameras more Colorimetric," EPrint 2021.12 (School of computing science, University of East Anglia, 2021).
