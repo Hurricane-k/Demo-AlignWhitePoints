@@ -16,7 +16,7 @@ Apart from SPD dataset, the QEs of main and telephoto camera embed in drone have
      3. `Results.mat` is the selected SPDs for white point alignment.
 3. the folder `imgsIllustration` includes one set of images, `1x` means the captured by the main camera, and `3x` means that captured by the telephoto camera. they recorded the same scene but in different FOV(field of view). `.mat` files are the demosicked ones corresponding to `.DNG` images.
 4. the folder `internal` stores the necessary functions. `cal_VoreValue.m` was from Yuteng Zhu's Phd work[3].
-5. `mainFunc.m` aims to generate `Results.mat` but that is not the ultimate results. The ultimate reuslt need to be processed to get indices:
+5. `mainFunc.m` aims to generate `Results.mat` but that is not the ultimate results. The ultimate reuslt need to be processed to get indices `SPDLab(:,IllumFreq(:))` is the ultimate results (several representative SPDs):
 ```
 for i = 1:size(ArrayIllum,1) % numIntervation
     for j = 1:size(ArrayIllum,2) % every input (R/G, B/G)
