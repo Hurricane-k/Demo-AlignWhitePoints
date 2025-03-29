@@ -8,6 +8,8 @@ In demo, the publicly available [SPDs dataset](https://www.semanticscholar.org/p
 
 Apart from SPD dataset, the QEs of main and telephoto camera embed in drone haven't been disclosed yet. In demo, the data calculated by QEs are precalculated and saved as `.mat` files. In  `line 91-92` are replaced with `line 94-95` in `mainFunc_visualization.m`.
 
+`mainFunc.m` and `mainFunc_visualization.m` are the main function to get the results and comparison visualization.
+
 # Structure of the repository
 1. the folder `camera_spectral` includes the QE/CSS(Camera Spectral Sensitivity Curves) from ["What is the space of spectral sensitivity functions for digital color cameras?"](https://ieeexplore.ieee.org/document/6475015)[2]. All `.mat` files are sorted out by [Yuteng Zhu's Phd Disseration and related work](https://ueaeprints.uea.ac.uk/id/eprint/82695/)[3].
 2. the folder `data` included the necessary data during SPD selection and visualization.
@@ -16,7 +18,7 @@ Apart from SPD dataset, the QEs of main and telephoto camera embed in drone have
      3. `Results.mat` is the selected SPDs for white point alignment.
 3. the folder `imgsIllustration` includes one set of images, `1x` means the captured by the main camera, and `3x` means that captured by the telephoto camera. they recorded the same scene but in different FOV(field of view). `.mat` files are the demosicked ones corresponding to `.DNG` images.
 4. the folder `internal` stores the necessary functions. `cal_VoreValue.m` was from Yuteng Zhu's Phd work[3].
-5. `mainFunc.m` aims to generate `Results.mat` but that is not the ultimate results. The ultimate reuslt need to be processed to get indices `SPDLab(:,IllumFreq(:))` is the ultimate results (several representative SPDs):
+5. `mainFunc.m` aims to generate `Results.mat` but that is not the ultimate results. The ultimate reuslt need to be processed to get indices `SPDLab(:,IllumFreq(:))` is ***the ultimate results** (**several representative SPDs**)* at the end of `mainFunc.m`:
 ```
 for i = 1:size(ArrayIllum,1) % numIntervation
     for j = 1:size(ArrayIllum,2) % every input (R/G, B/G)
