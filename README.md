@@ -1,4 +1,4 @@
-# Demo for Aligning White Points
+# Demo for Aligning White Points (color correction for multi-camera systems)
 
 ## Introduction
 A demo code for the journal paper "Color correction for multi-camera systems: aligning white points".
