@@ -1,7 +1,7 @@
 # Demo for Aligning White Points (color correction for multi-camera systems)
 
 ## Introduction
-A demo code for the journal paper "Color correction for multi-camera systems: aligning white points".
+A demo code for the journal paper "***Color correction for multi-camera systems: aligning white points***".
 
 The demo results differs from those shown in journal paper: variation of the SPDs involved.
 
