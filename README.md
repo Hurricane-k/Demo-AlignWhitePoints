@@ -3,7 +3,7 @@
 ## Introduction
 A demo code for the journal paper "***[Color correction for multi-camera systems: aligning white points](https://opg.optica.org/josaa/upcoming_pdf.cfm?id=550307)***".
 
-The demo results differs from those shown in journal paper: variation of the SPDs involved.
+The demo results differs from those shown in the journal papers: variation of the SPDs involved.
 
 In demo, the publicly available [SPDs dataset](https://www.semanticscholar.org/paper/A-data-set-for-color-research-Barnard-Martin/58400ccf99214b17c6a9b6d460515293adc88fec)[1], instead of the laboratory SPD collection, are utilized to select a set of representative SPDs for aligning white point. 
 
