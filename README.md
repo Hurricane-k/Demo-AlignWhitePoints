@@ -67,6 +67,9 @@ end
 ```
 6. `mainFunc_visualization.m` is visual comparison.
 
+## 📧 Citation
+If you find our work helpful, please cite our paper.
+
 ## 📖 Reference
 [1] K. Barnard, L. Martin, B. Funt, and Adam et al., "A Data Set for Colour Research,", Color Res Appl., 27(3), 147-151, (2002). <br>
 [2] J. Jiang, D. Liu, J. Gu and S. Süsstrunk, "What is the space of spectral sensitivity functions for digital color cameras?," in 2013 IEEE Workshop on Applications of Computer Vision (WACV), Clearwater Beach, FL, USA, (2013), pp. 168-179.<br>
