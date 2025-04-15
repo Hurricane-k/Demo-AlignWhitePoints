@@ -23,9 +23,9 @@
 ## 🔖 Abstract
 
 In recent years, many devices (e.g., smartphones and drones) contain multiple cameras, allowing an easy change of
-different focal lengths (FOVs) and fields of view when capturing ascene.Obvious color differences are easily observed when
+different focal lengths and fields of view (FOVs) when capturing ascene. Obvious color differences are easily observed when
 the images are captured by the different cameras for the same scene with different FOVs in asequential order, which
-significantly affects the user experience. Moststudies and investigations attributedsuch color differences to the different spectral sensitivity functions of the cameras. In this study, we found that the differences could be mainly due
+significantly affects the user experience. Most studies and investigations attributedsuch color differences to the different spectral sensitivity functions of the cameras. In this study, we found that the differences could be mainly due
 to the inconsistency among the white points estimated from the images captured by the different cameras. Based on
 this finding, we propose a method to calibrate the cameras under a set of calibration light sources that are carefully
 selected and to use a conversion matrix to align the white points among the images in real-time, which was found to
