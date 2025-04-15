@@ -13,7 +13,7 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/Paper-JOSA-blue)](https://opg.optica.org/josaa/upcoming_pdf.cfm?id=550307)
+[![Paper](https://img.shields.io/badge/Paper-JOSA_A-blue)](https://opg.optica.org/josaa/upcoming_pdf.cfm?id=550307)
 [![SPD](https://img.shields.io/badge/Dataset-SPD-%23cda6c3)](https://www.semanticscholar.org/paper/A-data-set-for-color-research-Barnard-Martin/58400ccf99214b17c6a9b6d460515293adc88fec)
 [![CSS](https://img.shields.io/badge/Dataset-CSS-%23cda6c3)](https://ieeexplore.ieee.org/document/6475015)
 [![Demo](https://img.shields.io/badge/Demo-Code-%2380f69a)](https://github.com/Hurricane-k/Demo-AlignWhitePoints)
