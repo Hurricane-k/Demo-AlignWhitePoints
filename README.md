@@ -20,7 +20,18 @@
 
 </div>
 
-## Introduction
+## 🔖 Abstract
+
+In recent years, many devices (e.g., smartphones and drones) contain multiple cameras, allowing an easy change of
+different focal lengths (FOVs) and fields of view when capturing ascene.Obvious color differences are easily observed when
+the images are captured by the different cameras for the same scene with different FOVs in asequential order, which
+significantly affects the user experience. Moststudies and investigations attributedsuch color differences to the different spectral sensitivity functions of the cameras. In this study, we found that the differences could be mainly due
+to the inconsistency among the white points estimated from the images captured by the different cameras. Based on
+this finding, we propose a method to calibrate the cameras under a set of calibration light sources that are carefully
+selected and to use a conversion matrix to align the white points among the images in real-time, which was found to
+significantly improve the color consistency.
+
+## 🔍 Introduction
 A demo code for the journal paper "***[Color correction for multi-camera systems: aligning white points](https://opg.optica.org/josaa/upcoming_pdf.cfm?id=550307)***".
 
 The demo results differs from those shown in the journal papers due to the variation of the SPDs involved.
@@ -33,7 +44,7 @@ Apart from SPD dataset, the QEs of main and telephoto camera embed in drone are 
 
 ![](demo_vis.png)
 
-## Structure of the repository
+## 💻 Quickstart
 1. the folder `camera_spectral` includes the QE (Camera Spectral Sensitivity Curves) from ["What is the space of spectral sensitivity functions for digital color cameras?"](https://ieeexplore.ieee.org/document/6475015)[2]. All `.mat` files are sorted out by [Yuteng Zhu's Phd Disseration and related work](https://ueaeprints.uea.ac.uk/id/eprint/82695/)[3].
 2. the folder `data` includeS the data necessary.
      1. `illum_test.txt` and `illum_train.txt` are the publicly available SPDs dataset[1].
@@ -56,7 +67,7 @@ end
 ```
 6. `mainFunc_visualization.m` is visual comparison.
 
-## Reference
+## 📖 Reference
 [1] K. Barnard, L. Martin, B. Funt, and Adam et al., "A Data Set for Colour Research,", Color Res Appl., 27(3), 147-151, (2002). <br>
 [2] J. Jiang, D. Liu, J. Gu and S. Süsstrunk, "What is the space of spectral sensitivity functions for digital color cameras?," in 2013 IEEE Workshop on Applications of Computer Vision (WACV), Clearwater Beach, FL, USA, (2013), pp. 168-179.<br>
 [3] Y. Zhu, "Designing a Colour Filter for Making Cameras more Colorimetric," EPrint 2021.12 (School of computing science, University of East Anglia, 2021).
