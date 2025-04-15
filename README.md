@@ -1,4 +1,15 @@
-# Demo for Aligning White Points (color correction for multi-camera systems)
+<p align="center">
+    <h1 align="center">Color correction for multi-camera systems: aligning white points</h1>
+    <p align="center">
+        <a href="https://carrybio.netlify.app/about/">Ruikai He</a>
+        ·
+        <a href="https://scholar.google.com/citations?user=vyrC0lwAAAAJ&hl=en">Minchen Wei</a>
+        ·
+        <a>Xinchao Qu</a>
+        ·
+        <a>Tao Hu</a>
+    </p>
+</p>
 
 ## Introduction
 A demo code for the journal paper "***[Color correction for multi-camera systems: aligning white points](https://opg.optica.org/josaa/upcoming_pdf.cfm?id=550307)***".
