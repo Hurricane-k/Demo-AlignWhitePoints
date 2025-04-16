@@ -41,11 +41,17 @@ In demo, the publicly available [SPDs dataset](https://www.semanticscholar.org/p
 
 Apart from SPD dataset, the QEs of main and telephoto camera embed in drone are not disclosed yet. In demo, the data calculated by QEs were precalculated and saved as `.mat` files, where suggests  `line 91-92` be replaced with `line 94-95` in `mainFunc_visualization.m`.
 
-`mainFunc.m` and `mainFunc_visualization.m` are the main functions to get the results and visual comparison, respectively. It is northwhile observing that visualizations are processed by white balance and gamma correction without color space conversion.
+`mainFunc.m` and `mainFunc_visualization.m` are ***the main functions*** to get the results and visual comparison, respectively. It is northwhile observing that visualizations are processed by white balance and gamma correction without color space conversion.
 
 ![](demo_vis.png)
 
 ## 💻 Quickstart
+### Prequisition
+Matlab 2018b or higher (finished on Matlab 2018b, and tested on Matlab 2023b)
+### Get started
+1. RUN `mainFunc.m` for the set of selective SPDs.
+2. RUN `mainFunc_visualization.m` for visual comparison.
+### Contents
 1. the folder `camera_spectral` includes the QE (Camera Spectral Sensitivity Curves) from ["What is the space of spectral sensitivity functions for digital color cameras?"](https://ieeexplore.ieee.org/document/6475015)[2]. All `.mat` files are sorted out by [Yuteng Zhu's Phd Disseration and related work](https://ueaeprints.uea.ac.uk/id/eprint/82695/)[3].
 2. the folder `data` includeS the data necessary.
      1. `illum_test.txt` and `illum_train.txt` are the publicly available SPDs dataset[1].
@@ -66,7 +72,6 @@ for i = 1:size(ArrayIllum,1) % numIntervation
     end
 end
 ```
-6. `mainFunc_visualization.m` is visual comparison.
 
 ## 📧 Citation
 If you find our work helpful, please cite our paper.
