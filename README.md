@@ -75,6 +75,22 @@ end
 
 ## 📧 Citation
 If you find our work helpful, please cite our paper.
+```
+@article{He:25,
+author = {Ruikai He and Minchen Wei and Xinchao Qu and Tao Hu},
+journal = {J. Opt. Soc. Am. A},
+keywords = {Cameras; Color difference; Imaging systems; Neural networks; Real time imaging; Spectral discrimination},
+number = {5},
+pages = {690--698},
+publisher = {Optica Publishing Group},
+title = {Color correction for multi-camera systems: aligning white points},
+volume = {42},
+month = {May},
+year = {2025},
+url = {https://opg.optica.org/josaa/abstract.cfm?URI=josaa-42-5-690},
+doi = {10.1364/JOSAA.550307},
+}
+```
 
 ## 📖 Reference
 [1] K. Barnard, L. Martin, B. Funt, and Adam et al., "A Data Set for Colour Research,", Color Res Appl., 27(3), 147-151, (2002). <br>
