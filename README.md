@@ -59,7 +59,7 @@ Matlab 2018b or higher (finished on Matlab 2018b, and tested on Matlab 2023b)
      3. `Results.mat` is the selected SPDs for different camera pairs.
 3. the folder `imgsIllustration` includes one set of images, `1x` and `3x` means that captured by the main camera and telephoto camera, respectively. They recorded the same scene but in different FOVs (Field of View). `.mat` files are the demosicked ones corresponding to `.DNG` images.
 4. the folder `internal` stores the necessary sub-functions. `cal_VoreValue.m` is from Zhu's Phd work[3].
-5. `mainFunc.m` generates `。/data/Results.mat` but not the ultimate results. The ultimate result need to be processed to get indices `SPDLab(:,IllumFreq(:))`: ***the ultimate results** (**several representative SPDs**)* at the end of `mainFunc.m`:
+5. ⭐🌟`mainFunc.m` generates `./data/Results.mat` but not the ultimate results. The ultimate result need to be processed to get indices `SPDLab(:,IllumFreq(:))`: ***the ultimate results** (**several representative SPDs**)* at the end of `mainFunc.m`:
 ```
 for i = 1:size(ArrayIllum,1) % numIntervation
     for j = 1:size(ArrayIllum,2) % every input (R/G, B/G)
